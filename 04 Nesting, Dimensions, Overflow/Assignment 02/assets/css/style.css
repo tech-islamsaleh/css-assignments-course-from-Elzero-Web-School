@@ -1,0 +1,9 @@
+.shape {
+ padding: 20px;
+ margin: 20px;
+ color: #fff;
+ width: fit-content;
+ max-width: 400px;
+ max-height: 22px;
+ background-color: #af1d2e;
+}
