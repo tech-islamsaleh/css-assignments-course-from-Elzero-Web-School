@@ -1,0 +1,39 @@
+.parent {
+ font-family: "Roboto Slab", serif;
+ width: 800px;
+ margin: 88px auto;
+ background-color: #eee;
+ font-weight: bold;
+ text-align: center;
+ font-size: 24px;
+}
+.clear {
+ clear: both;
+}
+.child {
+ padding: 24px 0;
+ background-color: #ddd;
+ float: left;
+}
+.full {
+ width: calc(100% - 30px);
+ margin-left: 15px;
+ margin-top: 15px;
+}
+.third,
+.half,
+.quarter {
+ margin: 15px 0;
+}
+.third {
+ margin-left: 15px;
+ width: calc((100% - (15px * 4)) / 3);
+}
+.half {
+ margin-left: 15px;
+ width: calc((100% - (15px * 3)) / 2);
+}
+.quarter {
+ margin-left: 15px;
+ width: calc((100% - (15px * 5)) / 4);
+}
