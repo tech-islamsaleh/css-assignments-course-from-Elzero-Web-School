@@ -1,0 +1,21 @@
+.parent{
+font-family: "Roboto Slab", serif;
+width: 400px;
+margin: 50px auto;
+list-style: none;
+}
+.lang{
+	padding: 10px;
+	margin: 20px;
+	background-color:#eee ;
+}
+.lang li{
+margin: 5px 0;
+padding: 10px;
+background-color: #fff;
+}
+.lang ul{
+	list-style-position: inside;
+	padding-left: 5px;
+
+}
