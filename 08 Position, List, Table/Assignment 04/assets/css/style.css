@@ -1,0 +1,38 @@
+table {
+ font-family: "Roboto Slab", serif;
+ width: 700px;
+ margin: 50px auto;
+ background-color: #eee;
+ border-spacing: 0;
+ text-align: center;
+ border-bottom: 2px solid #009888;
+}
+table td {
+ border: 1px solid #f6f6f6;
+ padding: 20px;
+}
+caption {
+ margin-bottom: 10px;
+ font-weight: bold;
+ font-size: 20px;
+}
+thead {
+ background-color: #404040;
+ color: #fff;
+ font-weight: bold;
+ font-size: 18px;
+}
+table button {
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 5px 10px;
+ color: #fff;
+ font-weight: bold;
+}
+table .view {
+ background-color: #00abf0;
+}
+table .delete {
+ background-color: #f80064;
+}
