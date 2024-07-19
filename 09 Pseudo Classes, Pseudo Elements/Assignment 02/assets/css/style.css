@@ -1,0 +1,18 @@
+div {
+ font-family: "Roboto Slab", serif;
+ background-color: #d4d4d4;
+ padding: 20px 40px;
+ margin: 50px auto;
+ width: fit-content;
+ font-size: 20px;
+ position: relative;
+}
+div::first-letter {
+ display: inline-block;
+ padding: 10px;
+ color: #fff;
+ font-weight: bold;
+ margin-left: -58px;
+ margin-right: 10px;
+ background-color: #f02c01;
+}
