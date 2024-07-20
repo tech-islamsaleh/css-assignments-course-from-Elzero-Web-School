@@ -1,0 +1,61 @@
+.plans {
+ font-family: "Roboto Slab", serif;
+ width: 550px;
+ margin: 50px auto;
+ text-align: center;
+ position: relative;
+}
+.plans::after {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 50%;
+ height: 100%;
+ margin-left: -1px;
+ width: 2px;
+ background-color: #3aa9f4;
+}
+.plans::before {
+ content: "Or";
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ width: 30px;
+ height: 30px;
+ margin-left: -15px;
+ border-radius: 50%;
+ background-color: #3aa9f4;
+ color: #fff;
+ font-weight: bold;
+ text-align: center;
+ line-height: 30px;
+ z-index: 2;
+}
+.plan {
+ float: left;
+ width: calc(76% / 2);
+ padding: 20px;
+ background-color: #eee;
+}
+.plan-1 {
+ margin-right: 9.45%;
+}
+.clear {
+ clear: both;
+}
+h2 {
+ padding: 10px;
+ background-color: #3aa9f4;
+ color: #fff;
+ border-radius: 8px;
+ margin: 0;
+}
+p {
+ background-color: #ddd;
+ font-size: 40px;
+ width: 90%;
+ margin: 30px auto 0;
+ height: 200px;
+ border-radius: 50%;
+ line-height: 200px;
+}
