@@ -1,0 +1,7 @@
+div {
+ width: 100px;
+ height: 100px;
+ border-radius: 10px 50px;
+ margin: 50px auto;
+ box-shadow: inset 0px 0px 15px 5px #7c7c7c;
+}
