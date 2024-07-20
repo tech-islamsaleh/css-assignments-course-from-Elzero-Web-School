@@ -1,0 +1,33 @@
+div {
+ font-family: "Roboto Slab", serif;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ background-color: #eee;
+ display: inline-block;
+ margin: 20px;
+ box-shadow: 5px 5px 0px 1px #3097f3, -5px -5px 0px 1px #e92b63;
+ border: 3px solid #000;
+ position: relative;
+ counter-increment: number;
+ text-align: center;
+ line-height: 100px;
+}
+div::before {
+ content: counter(number);
+ position: absolute;
+ top: 0;
+ left: 50%;
+ background-color: #000;
+ color: #fff;
+ font-weight: bold;
+ width: 24px;
+ height: 24px;
+ margin-top: -12px;
+ margin-left: -12px;
+ border-radius: 50%;
+ line-height: 24px;
+}
+div::after {
+ content: "Element";
+}
