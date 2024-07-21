@@ -1,0 +1,29 @@
+.parent {
+ font-family: "Roboto Slab", serif;
+ width: 600px;
+ height: 300px;
+ margin: 88px auto;
+ background-color: #eee;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+}
+.parent div {
+ background-color: #009888;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: bold;
+ color: #fff;
+ padding: 10px;
+ flex-basis: 30%;
+}
+.one {
+ align-self: self-end;
+}
+.two {
+ width: 50%;
+}
+.three {
+ align-self: self-end;
+}
