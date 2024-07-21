@@ -1,0 +1,22 @@
+div {
+ font-family: "Roboto Slab", serif;
+ background-color: #eee !important;
+ color: #000 !important;
+ border: none !important;
+ font-size: 20px !important;
+ text-align: center;
+ width: 400px;
+ margin: 55px auto;
+ position: relative;
+}
+div::after {
+ content: "Elzero";
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ margin-left: -50px;
+ margin-top: -20px;
+ font-weight: bold;
+ background-color: #eee;
+ padding: 6px 20px;
+}
