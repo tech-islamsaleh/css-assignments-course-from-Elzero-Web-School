@@ -1,0 +1,11 @@
+:root {
+ --mainColor: #009688;
+ --mainPadding: 10px;
+}
+div {
+ font-family: "Roboto Slab", serif;
+ padding: var(--mainPadding, 10px);
+ margin: 20px;
+ color: var(--mainColor, #ff2a36);
+ border: 3px solid var(--mainColor, #000);
+}
