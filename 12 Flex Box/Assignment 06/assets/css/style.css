@@ -1,0 +1,58 @@
+:root {
+ --bg: #ddd;
+ --pd: 15px;
+ --gap: 20px;
+}
+.page {
+ font-family: "Roboto Slab", serif;
+ background-color: #eee;
+ padding: var(--pd);
+ display: flex;
+ flex-direction: column;
+ height: 100vh;
+}
+.header {
+ display: flex;
+ gap: var(--gap);
+ height: 50px;
+}
+.logo {
+ padding: var(--pd);
+ background-color: var(--bg);
+ width: 100px;
+ text-align: center;
+}
+.links {
+ padding: var(--pd);
+ background-color: var(--bg);
+ margin: 0;
+ flex: 1;
+ list-style: none;
+ display: flex;
+ justify-content: flex-end;
+ gap: var(--gap);
+}
+.main-area {
+ margin: 20px 0;
+ display: flex;
+ gap: var(--gap);
+ flex: 1;
+}
+.content {
+ flex-basis: 68%;
+ background-color: var(--bg);
+ padding: var(--pd);
+}
+.sidebar {
+ flex-basis: 28%;
+ background-color: var(--bg);
+ padding: var(--pd);
+}
+.footer {
+ height: 30px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: var(--pd);
+ background-color: var(--bg);
+}
