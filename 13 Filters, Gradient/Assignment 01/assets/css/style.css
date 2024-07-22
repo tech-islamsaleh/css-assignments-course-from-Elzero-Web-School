@@ -1,0 +1,30 @@
+div {
+ font-family: "Roboto Slab", serif;
+ width: 600px;
+ margin: 88px auto;
+ padding: 20px;
+ font-size: 48px;
+ text-align: center;
+ background-color: #eee;
+ position: relative;
+}
+div::first-letter {
+ color: #ff313d;
+}
+div::before {
+ content: "";
+ position: absolute;
+ top: -10px;
+ left: -10px;
+ z-index: -1;
+ width: calc(100% + 20px);
+ height: calc(100% + 20px);
+ background: linear-gradient(
+  to right,
+  #ff313d 0 20%,
+  #0098ef 20% 40%,
+  #1bb157 40% 60%,
+  #f80064 60% 80%,
+  #6f37b3 80% 100%
+ );
+}
