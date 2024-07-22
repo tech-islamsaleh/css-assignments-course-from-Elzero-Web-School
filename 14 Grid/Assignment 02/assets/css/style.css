@@ -1,0 +1,46 @@
+body {
+ margin: 0;
+ color: #fff;
+ font-weight: bold;
+}
+.layout {
+ font-family: "Roboto Slab", serif;
+ height: 100vh;
+ display: grid;
+ grid-template-rows: 50px 1fr 50px;
+ grid-template-areas:
+  "header header header header header"
+  "section section section section aside" "footer footer footer footer footer";
+}
+header {
+ grid-area: header;
+ background-color: #00abf0;
+ padding: 20px;
+}
+header::before {
+ content: "Header";
+}
+section {
+ grid-area: section;
+ background-color: #ff4a31;
+ padding: 20px;
+}
+section::before {
+ content: "Section";
+}
+aside {
+ grid-area: aside;
+ background-color: #5b7e8a;
+ padding: 20px;
+}
+aside::before {
+ content: "Aside";
+}
+footer {
+ grid-area: footer;
+ background-color: #009888;
+ padding: 20px;
+}
+footer::before {
+ content: "Footer";
+}
