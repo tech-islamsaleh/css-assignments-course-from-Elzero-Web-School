@@ -1,0 +1,19 @@
+.grid {
+ font-family: "Roboto Slab", serif;
+ background-color: #ddd;
+ padding: 20px;
+ width: 800px;
+ height: 400px;
+ margin: 88px auto;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ align-content: space-between;
+ gap: 20px;
+}
+.grid div {
+ font-weight: bold;
+ color: #fff;
+ background-color: #f80064;
+ text-align: center;
+ align-self: flex-start;
+}
