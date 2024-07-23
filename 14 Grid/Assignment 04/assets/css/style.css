@@ -1,0 +1,60 @@
+.grid {
+ font-family: "Roboto Slab", serif;
+ background-color: #ddd;
+ padding: 20px;
+ width: 800px;
+ height: 400px;
+ margin: 88px auto;
+ display: grid;
+ grid-template-columns: repeat(3, auto);
+ grid-template-rows: repeat(6, auto);
+ gap: 15px;
+}
+.grid div {
+ color: #fff;
+ font-weight: bold;
+ font-size: 24px;
+ background-color: #0098ef;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 10px;
+}
+.one{
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 6;
+}
+.two{
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.three{
+	grid-column-start: 3;
+	grid-row-start: 2;
+}
+.four{
+	grid-column-start: 1;
+	grid-row-start: 3;
+}
+.five{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+.six{
+	grid-column-start: 1;
+	grid-row-start: 4;
+}
+.seven{
+	grid-column-start: 1;
+	grid-row-start: 5;
+}
+.eight{
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 1;
+}
