@@ -1,0 +1,44 @@
+div {
+ font-family: "Roboto Slab", serif;
+ width: 50px;
+ height: 50px;
+ margin: 88px auto;
+ border-radius: 50%;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #ff0058 #ff0058 #ff0058 #fff;
+ position: relative;
+ animation: rotate 1s infinite linear forwards;
+}
+div:hover {
+ animation-play-state: paused;
+}
+div::before {
+ content: "";
+ position: absolute;
+ top: -13px;
+ left: -13px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #00b6fb #fff #00b6fb #00b6fb;
+ width: calc(100% + 16px);
+ height: calc(100% + 16px);
+ border-radius: 50%;
+}
+div::after {
+ content: "";
+ position: absolute;
+ top: -20px;
+ left: -20px;
+ border-width: 5px;
+ border-style: solid;
+ border-color: #ffb132 #ffb132 #fff #ffb132;
+ width: calc(100% + 30px);
+ height: calc(100% + 30px);
+ border-radius: 50%;
+}
+@keyframes rotate {
+ 100% {
+  transform: rotate(360deg);
+ }
+}
