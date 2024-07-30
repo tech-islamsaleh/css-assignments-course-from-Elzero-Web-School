@@ -1,0 +1,6 @@
+body {
+ font-family: "Roboto Slab", serif;
+}
+div > :not(h3, :first-child, :last-child) {
+ color: red;
+}
