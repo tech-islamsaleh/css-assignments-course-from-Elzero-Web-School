@@ -1,0 +1,6 @@
+body {
+ font-family: "Roboto Slab", serif;
+}
+.parent > .child:last-child {
+ color: red;
+}
