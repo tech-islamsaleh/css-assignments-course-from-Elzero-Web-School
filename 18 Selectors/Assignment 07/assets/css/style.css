@@ -1,0 +1,6 @@
+body {
+ font-family: "Roboto Slab", serif;
+}
+div:not([class]) h3 + div:nth-last-of-type(2):not([class]) {
+ color: red;
+}
