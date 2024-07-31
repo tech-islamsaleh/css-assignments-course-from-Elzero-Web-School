@@ -1,0 +1,40 @@
+div {
+ font-family: "Roboto Slab", serif;
+ padding: 24px;
+ margin: 50px auto;
+ width: 350px;
+ background-color: #ddd;
+ position: relative;
+}
+.arrow::after {
+ content: "";
+ position: absolute;
+ width: 0;
+ height: 0;
+ border-width: 10px;
+ border-style: solid;
+}
+.arrow.top::after {
+ top: 0;
+ left: 50%;
+ transform: translate(-50%, -20px);
+ border-color: transparent transparent #ddd transparent;
+}
+.arrow.right::after {
+ top: 50%;
+ right: 0;
+ transform: translate(20px, -50%);
+ border-color: transparent transparent transparent #ddd;
+}
+.arrow.bottom::after {
+ bottom: 0;
+ left: 50%;
+ transform: translate(-50%, 20px);
+ border-color: #ddd transparent transparent transparent;
+}
+.arrow.left::after {
+ top: 50%;
+ left: 0;
+ transform: translate(-20px, -50%);
+ border-color: transparent #ddd transparent transparent;
+}
