@@ -1,0 +1,37 @@
+body {
+ font-family: "Roboto Slab", serif;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ gap: 32px;
+}
+div {
+ padding: 8px;
+ flex-basis: 100%;
+ background-color: #eee;
+ text-align: center;
+}
+@media (min-width: 768px) {
+ div:first-of-type {
+  flex-basis: 100%;
+ }
+ div {
+  flex-basis: 28%;
+ }
+ h2 {
+  color: #ff1f35;
+ }
+}
+@media (min-width: 991px) {
+ div:first-of-type,
+ div:last-of-type {
+  flex-basis: 100%;
+ }
+ div {
+  flex-basis: 45%;
+ }
+ h2 {
+  color: #009b8c;
+ }
+}
